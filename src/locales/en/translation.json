@@ -1,0 +1,68 @@
+{
+  "welcome": "Welcome to my site!",
+  "nameSlogan": "Hello!",
+  "name": "I'm Heath Zhang",
+  "navLinks": {
+    "about": "About me",
+    "skills": "Skills",
+    "experience": "Experience",
+    "projects": "Projects",
+    "contact": "Contact"
+  },
+  "position": "FRONT-END DEVELOPER",
+  "tip1": "A versatile and passionate developer",
+  "tip2": " with 9 years of experience.",
+  "title": "About Me",
+  "about1": "I am a front-end developer with 9 years of hands-on experience in building dynamic, responsive, and scalable web applications. With a strong foundation in both front-end and back-end technologies, I specialize in delivering complete, end-to-end solutions.",
+  "about2": "I have a particular strength in front-end development, with a passion for creating high-quality user interfaces and seamless interactive experiences.",
+  "about3": "I hold a degree in Computer Science and Technology, and have been working in web development since graduation. My extensive project experience spans a wide range of industries and technical challenges, enabling me to turn complex requirements into elegant, user-centric products.",
+  "skills": {
+    "title": "Skills",
+    "description": "I am proficient in a variety of front-end and back-end technologies, capable of independently developing complex web applications. Here are the technologies I excel in:"
+  },
+  "experience":{
+    "since": "Since 2016",
+    "title": "Experience",
+    "title2": "Projects & Years",
+    "years": "9",
+    "projects": "30+",
+    "description": "With 9 years of hands-on experience developing various web applications."
+  },
+  "experienceInfoType": "EN",
+  "projects": {
+    "title": "Featured Projects",
+    "description": "Over the past few years, I have participated in and led multiple digital transformation projects across various industries. The following four are the ones I’m most proud of — each representing technical depth, business complexity, and user experience excellence.",
+    "list": [
+      {
+        "title": "Smart Agriculture Platform – Yunnan Unicom",
+        "align": "right",
+        "image": "../../public/images/website-img-1.jpg",
+        "techStack": "Tech Stack: Vue3, CesiumJS, Element Plus, ECharts, TypeScript, Node.js",
+        "description": "A comprehensive digital platform for agricultural scenarios, supporting web, mobile, and 3D visualization terminals. The platform leverages Cesium for 3D geospatial rendering, enabling crop distribution visualization, environmental monitoring, and remote IoT device control to support precision agriculture and intelligent decision-making."
+      },
+      {
+        "title": "Enterprise Operations Platform – Yunnan Unicom",
+        "align": "left",
+        "image": "../../public/images/website-img-1.jpg",
+        "techStack": "Tech Stack: React, React Native, TypeScript, Node.js, MongoDB, Docker, Nginx",
+        "description": "An integrated operations system tailored for enterprise and government clients. It includes business process management, CRM, and data reporting modules, with full support for both web and mobile platforms. The system has been deployed in multiple regions, significantly improving operational efficiency and digital governance."
+      },
+      {
+        "title": "TeaTrader – Tea Traceability and Trading Platform",
+        "align": "right",
+        "image": "../../public/images/website-img-1.jpg",
+        "techStack": "Tech Stack: Vue2, Element UI, UniApp, WeChat Mini Program",
+        "description": "A customized platform for the tea industry available on both web and mini-program. It integrates AI-based product recommendations and blockchain-powered traceability, enabling end-to-end transparency from production to consumers and building trust in the trading process."
+      },
+      {
+        "title": "Yunshi Warehouse – Digital Warehouse Management System",
+        "align": "left",
+        "image": "../../public/images/website-img-1.jpg",
+        "techStack": "Tech Stack: React, Ant Design, Vite, ECharts, TypeScript",
+        "description": "A warehouse management platform focused on digital transformation. It supports multi-role collaboration, real-time inventory control, alerts, and data visualization. Compatible with multi-warehouse and cross-device operations, it improves logistics transparency and reduces storage costs."
+      }
+    ]
+  }
+
+  
+}
