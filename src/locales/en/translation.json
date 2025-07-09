@@ -30,38 +30,50 @@
   },
   "experienceInfoType": "EN",
   "projects": {
-    "title": "Featured Projects",
+    "title": "Projects",
     "description": "Over the past few years, I have participated in and led multiple digital transformation projects across various industries. The following four are the ones I’m most proud of — each representing technical depth, business complexity, and user experience excellence.",
     "list": [
       {
         "title": "Smart Agriculture Platform – Yunnan Unicom",
         "align": "right",
-        "image": "../../public/images/website-img-1.jpg",
+        "image": "../../public/images/projects/pro1.jpg",
         "techStack": "Tech Stack: Vue3, CesiumJS, Element Plus, ECharts, TypeScript, Node.js",
         "description": "A comprehensive digital platform for agricultural scenarios, supporting web, mobile, and 3D visualization terminals. The platform leverages Cesium for 3D geospatial rendering, enabling crop distribution visualization, environmental monitoring, and remote IoT device control to support precision agriculture and intelligent decision-making."
       },
       {
         "title": "Enterprise Operations Platform – Yunnan Unicom",
         "align": "left",
-        "image": "../../public/images/website-img-1.jpg",
+        "image": "../../public/images/projects/pro2.png",
         "techStack": "Tech Stack: React, React Native, TypeScript, Node.js, MongoDB, Docker, Nginx",
         "description": "An integrated operations system tailored for enterprise and government clients. It includes business process management, CRM, and data reporting modules, with full support for both web and mobile platforms. The system has been deployed in multiple regions, significantly improving operational efficiency and digital governance."
       },
       {
         "title": "TeaTrader – Tea Traceability and Trading Platform",
         "align": "right",
-        "image": "../../public/images/website-img-1.jpg",
+        "image": "../../public/images/projects/pro3.jpg",
         "techStack": "Tech Stack: Vue2, Element UI, UniApp, WeChat Mini Program",
         "description": "A customized platform for the tea industry available on both web and mini-program. It integrates AI-based product recommendations and blockchain-powered traceability, enabling end-to-end transparency from production to consumers and building trust in the trading process."
       },
       {
         "title": "Yunshi Warehouse – Digital Warehouse Management System",
         "align": "left",
-        "image": "../../public/images/website-img-1.jpg",
+        "image": "../../public/images/projects/pro4.jpg",
         "techStack": "Tech Stack: React, Ant Design, Vite, ECharts, TypeScript",
         "description": "A warehouse management platform focused on digital transformation. It supports multi-role collaboration, real-time inventory control, alerts, and data visualization. Compatible with multi-warehouse and cross-device operations, it improves logistics transparency and reduces storage costs."
       }
     ]
+  },
+  "contact": {
+    "title": "Contact Me",
+    "title2": "Get in Touch",
+    "description": "If you are interested in my work or have any collaboration opportunities, please feel free to reach out through the following methods. I look forward to connecting with you!",
+    "email": "moneo1217@gmail.com",
+    "phone": "+86 18206710225",
+    "location": "Kunming, Yunnan, China",
+    "emailLabel": "Email",
+    "nameLabel": "What should I call you?",
+    "messageLabel": "Your Message",
+    "sendButton": "Send"
   }
 
   

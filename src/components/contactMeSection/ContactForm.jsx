@@ -1,6 +1,6 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
-
+import { useTranslation } from "react-i18next";
 const ContactForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -35,6 +35,8 @@ const ContactForm = () => {
       );
   };
 
+  const { t } = useTranslation();
+
   return (
     <div>
       <p className="text-cyan">{success}</p>
@@ -42,7 +44,7 @@ const ContactForm = () => {
         <input
           type="text"
           name="from_name"
-          placeholder="Your Name"
+          placeholder={t('contact.nameLabel')}
           required
           className="h-12 rounded-lg bg-lightBrown px-2"
           value={name}
@@ -51,7 +53,7 @@ const ContactForm = () => {
         <input
           type="email"
           name="from_email"
-          placeholder="Your Email"
+          placeholder={t('contact.emailLabel')}
           required
           className="h-12 rounded-lg bg-lightBrown px-2"
           value={email}
@@ -62,7 +64,7 @@ const ContactForm = () => {
           name="message"
           rows="9"
           cols="50"
-          placeholder="Message"
+          placeholder={t('contact.messageLabel')}
           required
           className=" rounded-lg bg-lightBrown p-2"
           value={message}
@@ -72,7 +74,7 @@ const ContactForm = () => {
           type="submit"
           className="w-full rounded-lg border border-cyan text-white h-12 font-bold text-xl hover:bg-darkCyan bg-cyan transition-all duration-500"
         >
-          Send
+          {t('contact.sendButton')}
         </button>
       </form>
     </div>

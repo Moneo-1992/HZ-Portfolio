@@ -21,7 +21,7 @@ const AboutMeText = () => {
           to="projects"
           className="cursor-pointer text-white hover:text-cyan transition-all duration-500"
         >
-          My Projects
+          {t('projects.title')}
         </Link>
       </button>
     </div>

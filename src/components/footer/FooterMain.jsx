@@ -1,29 +1,54 @@
 import { Link } from "react-scroll";
+import { useTranslation } from "react-i18next";
 
 const FooterMain = () => {
-  const footerLinks = [
-    {
-      name: "About Me",
-      section: "about",
-    },
-    {
-      name: "Skills",
-      section: "skills",
-    },
-    {
-      name: "Experience",
-      section: "experience",
-    },
-    {
-      name: "Projects",
-      section: "projects",
-    },
-  ];
+  const { t } = useTranslation();
+  let footerLinks = [];
+
+  if (t("experienceInfoType") == 'EN') {
+    footerLinks = [
+      {
+        name: "About Me",
+        section: "about",
+      },
+      {
+        name: "Skills",
+        section: "skills",
+      },
+      {
+        name: "Experience",
+        section: "experience",
+      },
+      {
+        name: "Projects",
+        section: "projects",
+      },
+    ]
+  } else {
+    footerLinks = [
+      {
+        name: "关于我",
+        section: "about",
+      },
+      {
+        name: "技术栈",
+        section: "skills",
+      },
+      {
+        name: "工作经历",
+        section: "experience",
+      },
+      {
+        name: "项目经验",
+        section: "projects",
+      },
+    ]
+  }
   return (
     <div className="px-4">
       <div className="w-full h-[1px] bg-lightGrey mt-24"></div>
       <div className="md:flex justify-between mt-4 max-w-[1200px] mx-auto sm:hidden">
-        <p className="text-3xl text-lightGrey ">Abdelrahman Qassem</p>
+        <p className="text-3xl text-lightGrey ">Heath Zhang</p>
         <ul className="flex gap-4 text-lightGrey text-xl">
           {footerLinks.map((item, index) => {
             return (

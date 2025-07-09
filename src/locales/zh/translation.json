@@ -30,37 +30,50 @@
   },
   "experienceInfoType": "CN",
   "projects": {
-    "title": "精选项目简介",
+    "title": "项目简介",
     "description": "过去几年中，我参与并主导了多个数字化项目，涉及了很多行业和方向。以下是我最满意的四个项目，它们在技术深度、业务复杂性与用户体验层面都具有代表性。",
     "list": [
       {
         "title": "云南联通智慧农业平台",
         "align": "right",
-        "image": "../../public/images/website-img-1.jpg",
+        "image": "../../public/images/projects/pro1.jpg",
         "techStack": "技术栈：Vue3, CesiumJS, Element Plus, ECharts, TypeScript, Node.js",
         "description": "打造面向农业场景的综合性数字平台，覆盖 Web 端、移动端与可视化大屏。平台核心亮点为 Cesium 实现的 3D 地理可视化，支持作物分布可视、环境监测、IoT 设备远程控制等功能，助力农业精细化管理与智能决策。"
       },
       {
         "title": "云南联通政企运营平台",
         "align": "left",
-        "image": "../../public/images/website-img-1.jpg",
+        "image": "../../public/images/projects/pro2.png",
         "techStack": "技术栈：React、React Native、TypeScript、Node.js、MongoDB、Docker、Nginx",
         "description": "为政企客户打造的一体化运营系统，涵盖业务流程管理、客户关系、数据报表等功能，Web 与移动端双端协同使用。系统已在多地落地，有效提升运营效率与数字化管理水平。"
       },
       {
         "title": " 茶商易 · 茶叶溯源与交易平台",
         "align": "right",
-        "image": "../../public/images/website-img-1.jpg",
+        "image": "../../public/images/projects/pro3.jpg",
         "techStack": "技术栈：Vue2、Element UI、UniApp、WeChat Mini Program",
         "description": "茶行业专属定制平台，Web 与小程序双端，提供智能推荐与区块链溯源功能，实现茶叶“从产地到消费者”的全流程追踪，构建可信交易环境。"
       },
       {
         "title": "云视仓 · 仓储数字化监管平台",
         "align": "left",
-        "image": "../../public/images/website-img-1.jpg",
+        "image": "../../public/images/projects/pro4.jpg",
         "techStack": "技术栈：React、Ant Design、Vite、ECharts、TypeScript",
         "description": "聚焦仓库数字化管理，实现多角色协同、入出库管理、库存预警与数据可视化。系统兼容多仓库、多端实时管理，为客户降低仓储成本、提升透明度。"
       }
     ]
+  },
+  "contact": {
+    "title": "联系我",
+    "title2": "保持联系",
+    "description": "如果您对我的工作感兴趣，或者有任何合作机会，请随时通过以下方式与我联系。期待与您交流！",
+    "email": "moneo1217@gmail.com",
+    "phone": "18206710225",
+    "location": "云南省昆明市",
+    "emailLabel": "电子邮箱",
+    "nameLabel": "怎么称呼？",
+    "messageLabel": "留言内容",
+    "sendButton": "发送"
+      
   }
 }
